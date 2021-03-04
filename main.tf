@@ -12,3 +12,4 @@ resource "aws_instance" "dev" {
     Name = "dev${count.index}"
   }
 }
+
